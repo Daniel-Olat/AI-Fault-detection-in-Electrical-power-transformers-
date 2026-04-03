@@ -1,6 +1,6 @@
-readme_content = """# AI fault detetction in Electrical Signals using an autoencoder
+AI fault detetction in Electrical Signals using an autoencoder
 
-## 📖 Overview
+##  Overview
 This project is an implementation of an unsupervised anomaly detection system for electrical signals using an autoencoder. The model learns to reconstruct normal operating conditions of electrical currents and voltages. Any significant deviation in reconstruction error is flagged as a potential electrical fault.
 
 ##  Workflow
@@ -32,7 +32,10 @@ This project is an implementation of an unsupervised anomaly detection system fo
    Samples with error above threshold are flagged as anomalies.  
    Final output reports the number of detected potential faults.
 
-## 📊 Example Output
+##  Example Output
+376/376 ━━━━━━━━━━━━━━━━━━━━ 0s 1ms/step
+41/41 ━━━━━━━━━━━━━━━━━━━━ 0s 2ms/step
+Detected 5463 potential electrical faults
 
 ## 🛠️ Requirements
 - Python 3.8–3.11  
